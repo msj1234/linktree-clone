@@ -1,0 +1,49 @@
+/*Creating the styles for the linktree clone*/
+
+html{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    font-family: sans-sherif;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+/*used in div class to stype entire body*/
+.bio{
+    text-align: center;
+    color:darksalmon;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 16px 20px; /*space between text*/
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #000; /*text color */
+    text-decoration: none; /*get rid of underline */
+    text-align: center;
+}
+
+/*to change the display of links buttons after you hover over it*/
+.btn:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #000;
+}
